@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <title> Practical 2</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="arr.js"></script>
+<link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+  <nav class="topmenu">
+    <div class="logo">Sumit</div>
+    <ul class="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#Registration Form">Registration Form</a></li>
+      <li><a href="#Registration layout">Registration Layout</a></li>
+
+    </ul>
+  </nav>
+
+<div id="wrapper" >
+
+  <section id="home" class="one">
+
+
+    <h1>Topic: In work at home</h1>
+
+    <h4>Date: 16th Aug 2020 AT 2:00 PM IST</h4>
+
+
+    <div>
+
+Description:  Our Dedicated Team Is Working From Home For Better Tomorrows
+
+Modtechy announces that working from home is now mandatory for all it's employees around the world due to the COVID-19 epidemic starting from the 16th of March, 2020
+
+The presenter is Edward Wrighthon, CEO of Modtechy Ltd. In this webinar, Edward will discuss many of the challenges of working from home.
+
+So, kindly Join us at right time.
+
+</div>
+  </section>
+   <section id="Registration Form" class="two">
+     <h1 class="text-center ">Registre For webinar</h1>
+
+       <div class="container">
+        <br>
+        <form id="event-registration-form" method="POST" action="">
+       
+         <div class="form-group">
+          <label>Name:</label>
+          <input type="text" name="" id="name" class="form-control" >
+          <span id="nameerror" class="text-danger font-weight-bold"></span>
+         </div>
+
+
+
+         <div class="form-group">
+          <label>Email :</label>
+          <input type="text" name="" id="email" class="form-control">
+          <span id="emailerror" class="text-danger font-weight-bold"></span>
+         </div>
+
+         <div class="form-group">
+          <label>Mobile no:</label>
+          <input type="text" name="" id="mobile" class="form-control">
+          <span id="mobileerror" class="text-danger font-weight-bold"></span>
+         </div>
+
+
+
+         <div class="form-group">
+          <label>PRN no:</label>
+          <input type="text" name="" id="prn" class="form-control">
+          <span id="prnerror" class="text-danger font-weight-bold"></span>
+         </div>
+
+
+
+         <div class="form-group">
+          <label>Roll no:</label>
+          <input type="text" name="" id="roll" class="form-control">
+          <span id="rollerror" class="text-danger font-weight-bold"></span>
+         </div>
+         <div class="container">
+          <button type="button" class = "btn btn-dark" onclick="validation();">SUBMIT</button>
+        </div>
+        
+
+        
+
+
+
+        </form>
+    </div>
+
+
+    <section id="Registration layout" class="three">
+      <h1 class="text-center ">Table</h1>
+
+
+                <table id="myTable" >
+                   <th>Name</th>
+                   <th>Email</th>
+                   <th>Mobile no.</th>
+                   <th>Prn no.</th>
+                   <th>Roll no.</th>
+                      
+                    
+                    
+                </table>
+
+        
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

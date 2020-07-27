@@ -1,0 +1,119 @@
+
+body {
+  margin:0;
+  padding:0;
+}
+
+img{
+  max-width:100%;
+}
+section {
+  margin: 5px 0;
+}
+.topmenu{
+  background-color: #333;
+  top:0;
+  text-transform: uppercase;
+  position: fixed;
+  width:100%;
+  z-index:999;
+}
+.logo {
+  float:left;
+  padding:8px;
+  color:#ffffff;
+  font-size: 1.2em;
+}
+.nav {
+  float:right;
+  margin: 0;
+  padding:0;
+
+}
+
+.nav li{
+  list-style-type: none;
+  float:left;
+  padding:8px;
+  text-align: center;
+  height:50px;
+}
+.nav li a{
+  display:block;
+  text-decoration: none;
+  color:white;
+  padding:8px ;
+}
+.nav li:hover{
+  background-color:#222;
+}
+#wrapper {
+  margin-top:50px;
+}
+.one{
+  background-image: url(/images/9.jpg);
+  height:800px;
+  background-position:center;
+  background-size:cover;
+  
+}
+.one h1{
+  font-size:2em;
+  color:black;
+  position: relative;
+  top:220px;
+  margin:auto;
+  width:520px;
+  text-align: center;
+}
+.one h4{
+
+  color:black;
+  position: relative;
+  top:350px;
+  margin:auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.one div{
+  position: relative;
+  font-size: 1.2em;
+  width:100%;
+  color:blue;
+  margin:auto;
+  top:200px;
+  text-align: center;
+}
+
+
+
+h1 {
+  text-align: center;
+  border-bottom: 2px solid green;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+
+.three{
+  height: 620px;
+  padding-top: 180px;
+}
+
+table{
+  border-collapse: collapse;
+  width:50%;
+  margin:100px 400px;
+  background-color: burlywood;
+}
+
+.myTable, th, td {
+  border:2px solid black;
+  padding:5px;
+}
+
+th {
+  font-size:30px;
+  font-weight: 700;
+}
